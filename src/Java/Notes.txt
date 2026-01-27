@@ -1,0 +1,43 @@
+Q. why use capital letter in string datatype? =>Introduction Q.N.5
+❓ Why is String written with a capital S in Java?
+
+Because String is a class, not a primitive data type.
+
+🔹 Java data types are of two kinds:
+1️⃣ Primitive types (lowercase):
+
+int
+
+double
+
+char
+
+boolean
+
+These store simple values directly.
+
+2️⃣ Reference types / Classes (Capitalized):
+
+String
+
+Scanner
+
+ArrayList
+
+Integer
+
+These store references to objects.
+
+🧠 So:
+String name = "Guddu";
+
+is correct because String is a built-in class provided by Java.
+
+❌ string name = "Guddu"; → This is wrong and will cause a compile-time error.
+
+🎯 In short:
+
+We use a capital letter in String because:
+👉 It is a class, and Java class names always start with a capital letter by convention.
+
+==========================================================================
