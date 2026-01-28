@@ -1,3 +1,5 @@
+// For each input number n, you must determine which of the following primitive integer types can store it:
+
 import java.util.Scanner;
 
 public class Solution8 {
