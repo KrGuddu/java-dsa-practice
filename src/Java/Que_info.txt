@@ -4,5 +4,6 @@ Q.1. Welcome to Java!
 3. Java If-Else
 4. Java Output Formatting
 5. Java Stdin and Stdout II
-6. Java Loops I
-7. 
+6. Java Loops I*
+7. Java Loops II
+8. 
