@@ -1,4 +1,10 @@
-// For each input number n, you must determine which of the following primitive integer types can store it:
+/* For each input number n, you must determine which of the following primitive integer types can store it:
+Type	     Range
+byte	    -128 to 127
+short	    -32,768 to 32,767
+int	        -2,147,483,648 to 2,147,483,647
+long    	-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+*/
 
 import java.util.Scanner;
 
