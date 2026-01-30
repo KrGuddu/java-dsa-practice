@@ -24,7 +24,7 @@ public class Solution8 {
                     System.out.println("* byte");
                 if (x >= -32768 && x <= 32767)
                     System.out.println("* short");
-                if (x >= -2147483648L && x <= 2147483647L)
+                if (x >= -2147483648L && x <= 2147483647L)          //To tell Java, “This number is a long". So, Java treats it as a long. Without L, this would cause a compile-time error, because 2147483648 is outside the int range. Always use capital L, not lowercase l, because lowercase l looks like 1 and can be confusing.
                     System.out.println("* int");
                 if (x >= -9223372036854775808L && x <= 9223372036854775807L)
                     System.out.println("* long");

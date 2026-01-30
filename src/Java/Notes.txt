@@ -40,4 +40,48 @@ is correct because String is a built-in class provided by Java.
 We use a capital letter in String because:
 👉 It is a class, and Java class names always start with a capital letter by convention.
 
-==========================================================================
+========================================= Solution 8 ================================================
+🔹 Why do we use L in large numeric constants?
+By default, all integer literals (like 2147483648) in Java are treated as int.
+But the maximum value of int is: 2,147,483,647
+
+So if you write:  2147483648   // ❌ This is TOO LARGE for int → Compile-time error
+To tell Java, “This number is a long”, we add L: 2147483648L  // ✅ Now Java treats it as a long
+
+🔹 Example from your code:
+if (x >= -2147483648L && x <= 2147483647L)    ==>> Without L, this would cause a compile-time error, because 2147483648 is outside the int range.
+
+🔹 Summary:
+Literal	             Type Java Assumes
+123	                 int
+123L or 123l	     long
+
+👉 Always use capital L, not lowercase l, because lowercase l looks like 1 and can be confusing.
+If you want, I can also explain this for float vs double (F vs no suffix).
+
+------------------------ Additional --------------------------
+Let’s understand float vs double and why we use F (or f) suffix.
+
+🔹 Default type for decimal numbers in Java: By default, all decimal literals (like 3.14) are treated as double, not float.
+
+So this works: double d = 3.14;   // ✅ OK
+But this does NOT: float f = 3.14;    // ❌ Compile-time error (double → float)
+
+🔹 How to make a number a float?
+Add F or f:
+
+float f = 3.14F;   // ✅ Correct
+float f2 = 3.14f; // ✅ Also correct
+
+🔹 Summary Table
+Literal         	Type
+3.14	            double
+3.14F           	float
+3.14D	            double (optional, rarely used)
+
+🔹 Rule of thumb:
+Use L for long numbers.
+Use F for float numbers.
+No suffix → int (for whole numbers) or double (for decimals).
+
+==================================================================================================
