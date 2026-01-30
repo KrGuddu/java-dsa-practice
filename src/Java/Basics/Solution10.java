@@ -1,3 +1,15 @@
+/* You are given a class Solution with a main method.
+Complete the code so that it outputs the area of a parallelogram with breadth B and height H using a static initialization block.
+
+Input Format:
+First line: integer B (breadth)
+Second line: integer H (height)
+
+Output Format:
+If B > 0 and H > 0, print the area: B * H
+         Otherwise, print: java.lang.Exception: Breadth and height must be positive
+*/
+
 import java.util.Scanner;
 
 public class Solution10 {
