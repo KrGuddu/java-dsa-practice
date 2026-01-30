@@ -8,3 +8,5 @@ Q.1. Welcome to Java!
 7. Java Loops II
 8. Java Datatypes*
 9. Java End-of-file(EOF)
+10. Java Static Initializer Block**
+11. Java Int to String
