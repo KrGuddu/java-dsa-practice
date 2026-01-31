@@ -14,7 +14,7 @@ How it works:
 
 import java.util.Scanner;    // import java.util.*;
 
-public class stdin_stdout {
+public class Solution2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         

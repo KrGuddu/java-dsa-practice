@@ -1,3 +1,5 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Introduction ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+========================== Solution5 ================================
 Q. why use capital letter in string datatype? =>Introduction Q.N.5
 ❓ Why is String written with a capital S in Java?
 
@@ -5,39 +7,26 @@ Because String is a class, not a primitive data type.
 
 🔹 Java data types are of two kinds:
 1️⃣ Primitive types (lowercase):
-
 int
-
 double
-
 char
-
 boolean
 
 These store simple values directly.
 
 2️⃣ Reference types / Classes (Capitalized):
-
 String
-
 Scanner
-
 ArrayList
-
 Integer
 
 These store references to objects.
 
-🧠 So:
-String name = "Guddu";
-
+🧠 So: String name = "Guddu";
 is correct because String is a built-in class provided by Java.
-
 ❌ string name = "Guddu"; → This is wrong and will cause a compile-time error.
 
-🎯 In short:
-
-We use a capital letter in String because:
+🎯 In short: We use a capital letter in String because:
 👉 It is a class, and Java class names always start with a capital letter by convention.
 
 ========================================= Solution 8 ================================================
@@ -84,4 +73,47 @@ Use L for long numbers.
 Use F for float numbers.
 No suffix → int (for whole numbers) or double (for decimals).
 
-==================================================================================================
+============================================ Solution13 ======================================================
+We use: Locale indiaLocale = new Locale("en", "IN");
+because Java does not provide a built-in Locale constant for India like it does for Locale.US, Locale.CHINA, or Locale.FRANCE.
+
+🔹 What does this mean?
+"en" = English language
+"IN" = India country code
+
+So this creates a custom Indian locale so that:
+Currency symbol becomes ₹
+Number formatting follows Indian style (commas, decimals)
+
+🔹 Why not just use Locale.IN?: Because Locale.IN does not exist in Java’s standard library.
+
+✅ Result:- This line allows: NumberFormat.getCurrencyInstance(indiaLocale);
+to correctly format money as Indian Rupees.
+
+------------------------------------
+# Java lacks built-in locale constants for all countries
+// India
+Locale india = new Locale("en", "IN");
+
+// Pakistan
+Locale pakistan = new Locale("en", "PK");
+
+// Bangladesh
+Locale bangladesh = new Locale("en", "BD");
+
+// Nepal
+Locale nepal = new Locale("en", "NP");
+
+// Sri Lanka
+Locale sriLanka = new Locale("en", "LK");
+
+// UAE
+Locale uae = new Locale("en", "AE");
+
+🔹 Rule
+Format: new Locale("languageCode", "countryCode")
+Language codes → en, hi, fr, etc.
+Country codes → IN, PK, US, FR, etc. (ISO standards)
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ String ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
