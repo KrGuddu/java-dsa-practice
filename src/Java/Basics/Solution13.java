@@ -1,3 +1,16 @@
+/* Problem Statement:
+You are given a money amount (double value).
+Your task is to format this amount into different countries’ currency formats using Java’s NumberFormat class.
+
+You must print the amount formatted as:
+1. US currency
+2. Indian currency
+3. Chinese currency
+4. French currency
+
+Each on a new line.
+*/
+
 import java.text.NumberFormat;
 import java.util.Locale;
 import java.util.Scanner;
@@ -20,7 +33,7 @@ public class Solution13 {
 
         // France Locale
         NumberFormat france = NumberFormat.getCurrencyInstance(Locale.FRANCE);
-        
+
         System.out.println("US: " + us.format(payment));
         System.out.println("India: " + india.format(payment));
         System.out.println("China: " + china.format(payment));
