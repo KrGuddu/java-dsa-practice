@@ -74,7 +74,7 @@ public class Solution11 {                                       // Defines a pub
         String s = Integer.toString(n);                         // Converts the integer n into a String and stores it in s.
 
         if (s.equals(String.valueOf(n))) {                     // Checks whether the converted string s is equal to the string form of n.
-            System.out.println("Good job");                 // If they are equal, prints "Good job" to indicate successful conversion.
+            System.out.println("Good job");                   // If they are equal, prints "Good job" to indicate successful conversion.
         } else {                                              // Otherwise, prints "Wrong answer".
             System.out.println("Wrong answer");
         }
