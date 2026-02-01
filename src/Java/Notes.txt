@@ -117,3 +117,24 @@ Country codes → IN, PK, US, FR, etc. (ISO standards)
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ String ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+==================================== Solution1 ===============================
+# Lexicographical comparison means comparing strings the same way words are compared in a dictionary.
+
+🔹 How it works:
+• Compare characters one by one from left to right.
+• The first position where the characters differ decides the result.
+• The string whose character comes earlier in the alphabet is considered smaller.
+
+🔹 Examples:
+String A	       String B	            Result
+"apple"	           "banana"	            apple < banana
+"cat"	           "car"	            cat > car (because 't' > 'r')
+"hello"	           "hello"	            equal
+
+🔹 In Java: A.compareTo(B)
+Returns positive → A > B
+Returns 0 → A == B
+Returns negative → A < B
+
+🔹 Example:
+"hello".compareTo("java")  // negative → "hello" < "java"
