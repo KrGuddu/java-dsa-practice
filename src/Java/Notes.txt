@@ -117,7 +117,7 @@ Country codes → IN, PK, US, FR, etc. (ISO standards)
 
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ String ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-==================================== Solution1 ===============================
+======================================== Solution1 =========================================
 # Lexicographical comparison means comparing strings the same way words are compared in a dictionary.
 
 🔹 How it works:
@@ -138,3 +138,23 @@ Returns negative → A < B
 
 🔹 Example:
 "hello".compareTo("java")  // negative → "hello" < "java"
+
+------------------------------- substring ---------------------------
+A substring is a part of a string — a continuous sequence of characters taken from the original string.
+
+🔹 Example: String s = "hello";
+Some substrings of "hello" are: "h", "he", "ell" or "hello"
+
+🔹 In Java: s.substring(startIndex, endIndex)
+Where, startIndex → included, endIndex → excluded
+
+🔹 Example: String s = "hello";
+System.out.println(s.substring(0, 1));      // "h"
+System.out.println(s.substring(1, 4));      // "ell"
+System.out.println(s.substring(2));         // "llo"
+
+🔹 Use in your problem:
+A.substring(0, 1)       // first letter
+A.substring(1)          // rest of the word
+
+==============================================================================================

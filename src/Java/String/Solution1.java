@@ -28,7 +28,7 @@ public class Solution1 {
         // 1. Sum of lengths
         System.out.println(A.length() + B.length());
 
-        // 2. Lexicographical comparison
+        // 2. Lexicographical comparison                            // See in Notes.txt file
         if (A.compareTo(B) > 0) {
             System.out.println("Yes");;
         } else {
