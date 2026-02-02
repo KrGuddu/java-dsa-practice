@@ -1,3 +1,13 @@
+/* Problem Statement: You are given a string A consisting of lowercase English letters.
+Your task is to:
+• Check whether the string is a palindrome.
+• If it is a palindrome, print "Yes".
+• Otherwise, print "No".
+
+Example:- Input: madam
+          Output: Yes
+*/
+
 package Java.String;
 
 import java.util.Scanner;
