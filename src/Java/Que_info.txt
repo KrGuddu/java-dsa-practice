@@ -20,4 +20,5 @@ Q.1. Welcome to Java!
 4. Java String Reverse
 5. Java Anagrams
 6. Java String Tokens
-7. 
+7. Pattern Syntax Checker
+8. 
