@@ -18,3 +18,4 @@ Q.1. Welcome to Java!
 2. Java Substring
 3. Java Substring Comparisons
 4. Java String Reverse
+5. Java Anagrams
