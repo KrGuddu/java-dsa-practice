@@ -21,4 +21,4 @@ Q.1. Welcome to Java!
 5. Java Anagrams
 6. Java String Tokens
 7. Pattern Syntax Checker
-8. 
+8. Java Regex
