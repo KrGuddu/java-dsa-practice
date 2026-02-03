@@ -19,3 +19,5 @@ Q.1. Welcome to Java!
 3. Java Substring Comparisons
 4. Java String Reverse
 5. Java Anagrams
+6. Java String Tokens
+7. 
