@@ -1,3 +1,28 @@
+/*# Problem Summary: Given two strings s1 and s2 (possibly different lengths), you can delete any characters from either string.
+Your goal is to make both strings anagrams of each other with the minimum number of deletions.
+
+# Key Idea: 
+1. Count frequency of each character (a to z) in both strings.
+2. For each character:
+    Take the absolute difference between the two counts.
+3. Sum all differences → that’s the total deletions needed.
+
+# Example Walkthrough:
+Input:
+cde
+abc
+
+Frequency comparison:
+Letter	 cde	 abc	Difference
+a	      0      1	      1
+b	      0      1	      1
+c	      1    	 1        0
+d	      1      0        1
+e      	  1	     0	      1
+
+➡ Total deletions = 4
+*/
+
 package Algorithms.String;
 
 public class Making_Anagrams {
