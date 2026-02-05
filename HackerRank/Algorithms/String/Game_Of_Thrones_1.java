@@ -19,6 +19,12 @@ All characters appear once → many odds → ❌ NO
 
 Input: cdcdcdcdeeeef
 Only one odd frequency → ✔ YES    
+
+## Interview Tip: 
+This problem checks:
+    • Frequency counting
+    • Understanding palindrome properties
+    • Optimization using arrays or hash maps
 */
 
 package Algorithms.String;
