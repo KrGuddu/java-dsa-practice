@@ -1,3 +1,25 @@
+/* # Problem Summary: 
+• You are given a string s.
+• If its length is odd, return -1 (cannot split equally).
+• Otherwise:
+    • Split s into two equal halves: s1 and s2.
+    • Find the minimum number of characters to change in s1 to make s1 and s2 anagrams.
+
+# Key Idea: Count character frequencies in both halves:
+• For each character 'a' to 'z':
+    • If freq1[i] > freq2[i], you need to change freq1[i] - freq2[i] characters.
+• Sum all such positive differences → that’s the answer.
+
+# Example Walkthrough
+Input: aaabbb
+• Split → "aaa" and "bbb"
+• Need to change all 3 'a' to 'b'
+• Output → 3
+
+Input: abc
+• Length is odd → -1
+*/
+
 package Algorithms.String;
 
 public class Anagram {
