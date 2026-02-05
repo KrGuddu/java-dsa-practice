@@ -14,13 +14,13 @@ Q.1. Welcome to Java!
 13. Java Currency Formatter*
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ String ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-1. Java Strings Introduction
-2. Java Substring
+1. Java Strings Introduction          ->iii
+2. Java Substring                     ->i
 3. Java Substring Comparisons
-4. Java String Reverse
-5. Java Anagrams
+4. Java String Reverse                ->i
+5. Java Anagrams                      ->i
 6. Java String Tokens
-7. Pattern Syntax Checker
-8. Java Regex
-9. Valid Username Regular Expression
-10. Tag Content Extractor
+7. Pattern Syntax Checker           ->iii
+8. Java Regex                       ->iii
+9. Valid Username Regular Expression  ->ii
+10. Tag Content Extractor             ->ii

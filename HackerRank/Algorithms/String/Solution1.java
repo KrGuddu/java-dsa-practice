@@ -29,6 +29,7 @@ public class Solution1 {
         sc.close();
     }
 
+    // this is the main logic function
     public static int camelcase(String s) {
         int count = 1;
         for (char c : s.toCharArray()) {
