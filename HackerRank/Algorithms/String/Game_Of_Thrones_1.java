@@ -4,8 +4,8 @@ You must check whether its characters can be rearranged to form a palindrome.
 
 # Rule:
 For a string to be rearranged into a palindrome:
-    At most one character can have an odd frequency.
-    All other characters must have even frequency.
+    • At most one character can have an odd frequency.
+    • All other characters must have even frequency.
 
 # Example Walkthrough
 Input: aaabbbb
