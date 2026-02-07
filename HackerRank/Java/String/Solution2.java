@@ -17,7 +17,6 @@ Helloworld
 Output: lowo
 */
 
-
 package Java.String;
 import java.util.Scanner;
 
