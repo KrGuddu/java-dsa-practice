@@ -1,4 +1,4 @@
-/*👉 Check whether two given strings are anagrams of each other, ignoring case.
+/* Check whether two given strings are anagrams of each other, ignoring case.
 In simple words: 
 • You are given two strings.
 • You need to determine if they contain the same characters in the same frequency, regardless of uppercase or lowercase letters.
